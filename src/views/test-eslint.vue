@@ -7,11 +7,11 @@ export default {
     return {
       test: 0,
 
-      TEST1: 11 
+      TEST1: 11
     }
   },
   mounted() {
-    if (this.test == 1) {   
+    if (this.test === 1) {
       console.log(111)
     }
   }
